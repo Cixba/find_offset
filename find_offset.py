@@ -6,9 +6,6 @@ context.log_level = 'ERROR'
 def try_input2(left, right):
 	found = 0
 	interval = []
-	
-	initial_left = left
-	initial_right = right
 		
 	while found == 0:
 		p = process("./" + sys.argv[1])
